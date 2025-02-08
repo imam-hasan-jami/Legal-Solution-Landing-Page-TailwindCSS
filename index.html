@@ -30,6 +30,10 @@
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
+
+        .bg-custom-gradient {
+            background: linear-gradient(0deg, rgb(17, 17, 17), rgba(17, 17, 17, 0) 100%);
+        }
     </style>
 </head>
 
@@ -65,9 +69,27 @@
 
             <!-- button -->
             <div>
-                <button class="bg-[#B68C5A] font-poppins text-[#FFFFFF] text-lg px-7 py-4 rounded-lg">Free Consultation</button>
+                <button class="bg-[#B68C5A] font-poppins text-[#FFFFFF] text-lg px-7 py-4 rounded-lg">Free
+                    Consultation</button>
             </div>
         </nav>
+
+        <!-- banner -->
+        <div class="relative lg:max-w-[1170px] mx-auto">
+            <div class="absolute">
+                <img class="" src="./images/banner.png" alt="">
+                <div class="absolute inset-0 bg-custom-gradient"></div>
+            </div>
+            <div class="relative pt-[104px] px-[250px]">
+                <h1 class="text-white text-center font-garamond text-[72px] font-extrabold leading-[85px] mb-6">We Provide Effective Legal Solutions</h1>
+                <p class="text-white text-center font-poppins font-extralight mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <div class="flex gap-6 justify-center">
+                    <input class="bg-white pl-6 pr-72 rounded-lg font-poppins" type="text" placeholder="Search your services">
+                    <button class="text-white text-[20px] font-semibold px-10 py-4 rounded-lg bg-[#B68C5A]">Search</button>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
